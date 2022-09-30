@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
-             &kp GRAVE            &kp N1             &kp N2        &kp N3            &kp N4  &kp N5                      &tog 1         &mo 2        &kp N6        &kp N7     &kp N8        &kp N9            &kp N0     &kp BACKSLASH
-             &lt 4 TAB             &kp Q              &kp W         &kp E             &kp R   &kp T                       &none         &none         &kp Y         &kp U      &kp I         &kp O             &kp P     &kp BACKSPACE
- &mt RIGHT_CONTROL ESC             &kp A              &kp S         &kp D             &kp F   &kp G                &kp LC(LALT)    &kp C_MUTE    &kp C_PREV                             &kp C_NEXT  &kp C_PLAY_PAUSE  &kp LC(LS(LALT))      &kp H   &kp J      &kp K    &kp L  &kp SEMI          &kp SQT
-             &kp LSHFT             &kp Z              &kp X         &kp C             &kp V   &kp B                       &none         &none     &kp LCTRL         &none      &none  &kp C_VOL_UP             &none             &none      &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &mt RSHFT ENTER
-      &kp LC(LS(LALT))  &kp LEFT_CONTROL  &kp RIGHT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND   &mo 3            &kp LEFT_COMMAND  &kp LEFT_ALT  &kp C_VOL_DN  &kp LEFT_ALT  &kp SPACE      &kp LEFT          &kp DOWN            &kp UP  &kp RIGHT   &mo 2
+             &kp GRAVE            &kp N1             &kp N2        &kp N3            &kp N4  &kp N5                      &tog 1         &mo 2        &kp N6     &kp N7     &kp N8        &kp N9            &kp N0     &kp BACKSLASH
+             &lt 4 TAB             &kp Q              &kp W         &kp E             &kp R   &kp T                       &none         &none         &kp Y      &kp U      &kp I         &kp O             &kp P     &kp BACKSPACE
+ &mt RIGHT_CONTROL ESC             &kp A              &kp S         &kp D             &kp F   &kp G                &kp LC(LALT)    &kp C_MUTE    &kp C_PREV                          &kp C_NEXT  &kp C_PLAY_PAUSE  &kp LC(LS(LALT))      &kp H   &kp J      &kp K    &kp L  &kp SEMI          &kp SQT
+             &kp LSHFT             &kp Z              &kp X         &kp C             &kp V   &kp B                       &none         &none     &kp LCTRL      &none      &none  &kp C_VOL_UP             &none             &none      &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+          &kp LG(LALT)  &kp LEFT_CONTROL  &kp RIGHT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND   &mo 3            &kp LEFT_COMMAND  &kp LEFT_ALT  &kp C_VOL_DN  &kp ENTER  &kp SPACE      &kp LEFT          &kp DOWN            &kp UP  &kp RIGHT   &mo 2
             >;
         };
 
@@ -69,21 +69,31 @@
 
         layer_extras {
             bindings = <
-  &none  &kp F1  &kp F2                &kp F3            &kp F4          &kp F5            &none   &none  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10   &none
-  &none   &none   &none                 &none             &none           &none            &none   &none   &none   &none   &none   &none    &none   &none
- &tog 0   &none   &none  &kp LEFT_PARENTHESIS    &kp LEFT_BRACE  &kp UNDERSCORE            &none   &none   &none                   &none    &none   &none  &kp EQUAL    &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS   &none   &none   &none
-  &none   &none   &none                 &none  &kp LEFT_BRACKET       &kp MINUS            &none   &none   &none   &none   &none   &none    &none   &none   &kp PLUS  &kp RIGHT_BRACKET                  &none   &none   &none   &none
-  &none   &none   &none                 &none             &none           &none            &none   &none   &none   &none   &none   &none    &none   &none      &none              &none
+  &none  &kp F1  &kp F2                &kp F3            &kp F4          &kp F5            &none   &none  &kp F6  &kp F7  &kp F8      &kp F9       &kp F10         &none
+  &none   &none   &none                 &none             &none           &none            &none   &none   &none   &none   &none       &none         &none         &none
+ &tog 0   &none   &none  &kp LEFT_PARENTHESIS    &kp LEFT_BRACE  &kp UNDERSCORE            &none   &none   &none                       &none         &none         &none   &kp EQUAL    &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS   &none   &none   &none
+  &none   &none   &none                 &none  &kp LEFT_BRACKET       &kp MINUS            &none   &none   &none   &none   &none       &none         &none         &none    &kp PLUS  &kp RIGHT_BRACKET                  &none   &none   &none   &none
+  &none   &none   &none                 &none             &none           &none            &none   &none   &none   &none   &none  &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT              &none
             >;
         };
 
         layer_meh {
             bindings = <
-  &kp LC(LS(LA(Q)))              &kp LC(LS(LA(Q)))              &kp LC(LS(LA(Q)))              &kp LC(LS(LA(Q)))              &kp LC(LS(LA(Q)))              &kp LC(LS(LA(Q)))                        &kp LC(LS(LA(Q)))              &kp LC(LS(LA(Q)))              &kp LC(LS(LA(Q)))              &kp LC(LS(LA(Q)))              &kp LC(LS(LA(Q)))              &kp LC(LS(LA(Q)))              &kp LC(LS(LA(Q)))              &kp LC(LS(LA(Q)))
-  &none  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(W)))  &kp LC(LS(LA(E)))  &kp LC(LS(LA(R)))  &kp LC(LS(LA(T)))                        &none  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))
- &tog 0  &kp LC(LS(LA(A)))  &kp LC(LS(LA(S)))  &kp LC(LS(LA(D)))  &kp LC(LS(LA(F)))  &kp LC(LS(LA(G)))                        &none  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))                                        &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))
-  &none  &kp LC(LS(LA(Z)))  &kp LC(LS(LA(X)))  &kp LC(LS(LA(C)))  &kp LC(LS(LA(V)))  &kp LC(LS(LA(B)))            &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))
-  &kp LC(LS(LA(Q)))              &kp LC(LS(LA(Q)))              &kp LC(LS(LA(Q)))              &kp LC(LS(LA(Q)))              &kp LC(LS(LA(Q)))              &kp LC(LS(LA(Q)))                        &kp LC(LS(LA(Q)))              &kp LC(LS(LA(Q)))              &kp LC(LS(LA(Q)))              &kp LC(LS(LA(Q)))              &kp LC(LS(LA(Q)))              &kp LC(LS(LA(Q)))              &kp LC(LS(LA(Q)))              &kp LC(LS(LA(Q)))              &kp LC(LS(LA(Q)))              &kp LC(LS(LA(Q)))
+ &kp LC(LS(LA(GRAVE)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))                        &none              &none  &kp LC(LS(LA(N6)))  &kp LC(LS(LA(N7)))     &kp LC(LS(LA(N8)))    &kp LC(LS(LA(N9)))    &kp LC(LS(LA(N0)))  &kp LC(LS(LA(BACKSLASH)))
+                 &none  &kp LC(LS(LA(Q)))  &kp LC(LS(LA(W)))  &kp LC(LS(LA(E)))  &kp LC(LS(LA(R)))  &kp LC(LS(LA(T)))                        &none              &none   &kp LC(LS(LA(Y)))   &kp LC(LS(LA(U)))      &kp LC(LS(LA(I)))     &kp LC(LS(LA(O)))     &kp LC(LS(LA(P)))  &kp LC(LS(LA(BACKSPACE)))
+                &tog 0  &kp LC(LS(LA(A)))  &kp LC(LS(LA(S)))  &kp LC(LS(LA(D)))  &kp LC(LS(LA(F)))  &kp LC(LS(LA(G)))                        &none  &kp LC(LS(LA(Q)))   &kp LC(LS(LA(Q)))                                                &kp LC(LS(LA(Q)))     &kp LC(LS(LA(Q)))                      &none      &kp LC(LS(LA(H)))  &kp LC(LS(LA(J)))      &kp LC(LS(LA(K)))       &kp LC(LS(LA(L)))  &kp LC(LS(LA(SEMICOLON)))  &kp LC(LS(LA(SINGLE_QUOTE)))
+                 &none  &kp LC(LS(LA(Z)))  &kp LC(LS(LA(X)))  &kp LC(LS(LA(C)))  &kp LC(LS(LA(V)))  &kp LC(LS(LA(B)))            &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))   &kp LC(LS(LA(Q)))   &kp LC(LS(LA(Q)))      &kp LC(LS(LA(Q)))     &kp LC(LS(LA(Q)))     &kp LC(LS(LA(Q)))          &kp LC(LS(LA(Q)))      &kp LC(LS(LA(N)))  &kp LC(LS(LA(M)))  &kp LC(LS(LA(COMMA)))  &kp LC(LS(LA(PERIOD)))      &kp LC(LS(LA(SLASH)))         &kp LC(LS(LA(ENTER)))
+                 &none              &none              &none              &none              &none  &kp LC(LS(LA(Q)))            &kp LC(LS(LA(Q)))  &kp LC(LS(LA(Q)))   &kp LC(LS(LA(Q)))   &kp LC(LS(LA(Q)))  &kp LC(LS(LA(SPACE)))  &kp LC(LS(LA(LEFT)))  &kp LC(LS(LA(DOWN)))         &kp LC(LS(LA(UP)))  &kp LC(LS(LA(RIGHT)))              &none
+            >;
+        };
+
+        layer_comp_control {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
