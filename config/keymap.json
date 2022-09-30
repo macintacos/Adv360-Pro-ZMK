@@ -7,8 +7,7 @@
     "keypad",
     "mod",
     "extras",
-    "meh",
-    "comp control"
+    "meh"
   ],
   "layers": [
     [
@@ -41,12 +40,6 @@
                       "&tog 0", "&kp LC(LS(LA(A)))", "&kp LC(LS(LA(S)))", "&kp LC(LS(LA(D)))", "&kp LC(LS(LA(F)))", "&kp LC(LS(LA(G)))",                       "&none", "&kp LC(LS(LA(Q)))",  "&kp LC(LS(LA(Q)))",                                                   "&kp LC(LS(LA(Q)))",    "&kp LC(LS(LA(Q)))",                     "&none",     "&kp LC(LS(LA(H)))", "&kp LC(LS(LA(J)))",     "&kp LC(LS(LA(K)))",      "&kp LC(LS(LA(L)))", "&kp LC(LS(LA(SEMICOLON)))", "&kp LC(LS(LA(SINGLE_QUOTE)))",
                        "&none", "&kp LC(LS(LA(Z)))", "&kp LC(LS(LA(X)))", "&kp LC(LS(LA(C)))", "&kp LC(LS(LA(V)))", "&kp LC(LS(LA(B)))",           "&kp LC(LS(LA(Q)))", "&kp LC(LS(LA(Q)))",  "&kp LC(LS(LA(Q)))",  "&kp LC(LS(LA(Q)))",     "&kp LC(LS(LA(Q)))",    "&kp LC(LS(LA(Q)))",    "&kp LC(LS(LA(Q)))",         "&kp LC(LS(LA(Q)))",     "&kp LC(LS(LA(N)))", "&kp LC(LS(LA(M)))", "&kp LC(LS(LA(COMMA)))", "&kp LC(LS(LA(PERIOD)))",     "&kp LC(LS(LA(SLASH)))",        "&kp LC(LS(LA(ENTER)))",
                        "&none",             "&none",             "&none",             "&none",             "&none", "&kp LC(LS(LA(Q)))",           "&kp LC(LS(LA(Q)))", "&kp LC(LS(LA(Q)))",  "&kp LC(LS(LA(Q)))",  "&kp LC(LS(LA(Q)))", "&kp LC(LS(LA(SPACE)))", "&kp LC(LS(LA(LEFT)))", "&kp LC(LS(LA(DOWN)))",        "&kp LC(LS(LA(UP)))", "&kp LC(LS(LA(RIGHT)))",             "&none"
-    ], [
-       "&none", "&none", "&none", "&none", "&none", "&none",           "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none",
-       "&none", "&none", "&none", "&none", "&none", "&none",           "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none",
-       "&none", "&none", "&none", "&none", "&none", "&none",           "&none", "&none", "&none",                     "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none",
-       "&none", "&none", "&none", "&none", "&none", "&none",           "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none",
-       "&none", "&none", "&none", "&none", "&none", "&none",           "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none"
     ]
   ]
 }

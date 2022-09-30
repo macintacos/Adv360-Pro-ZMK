@@ -87,15 +87,5 @@
             >;
         };
 
-        layer_comp_control {
-            bindings = <
- &none  &none  &none  &none  &none  &none            &none  &none  &none  &none  &none  &none  &none  &none
- &none  &none  &none  &none  &none  &none            &none  &none  &none  &none  &none  &none  &none  &none
- &none  &none  &none  &none  &none  &none            &none  &none  &none                  &none  &none  &none  &none  &none  &none  &none  &none  &none
- &none  &none  &none  &none  &none  &none            &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
- &none  &none  &none  &none  &none  &none            &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-            >;
-        };
-
     };
 };
