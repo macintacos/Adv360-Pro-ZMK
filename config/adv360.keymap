@@ -89,11 +89,11 @@
 
         layer_comp_control {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &none  &none  &none  &none  &none  &none            &none  &none  &none  &none  &none  &none  &none  &none
+ &none  &none  &none  &none  &none  &none            &none  &none  &none  &none  &none  &none  &none  &none
+ &none  &none  &none  &none  &none  &none            &none  &none  &none                  &none  &none  &none  &none  &none  &none  &none  &none  &none
+ &none  &none  &none  &none  &none  &none            &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+ &none  &none  &none  &none  &none  &none            &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
             >;
         };
 

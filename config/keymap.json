@@ -42,11 +42,11 @@
                        "&none", "&kp LC(LS(LA(Z)))", "&kp LC(LS(LA(X)))", "&kp LC(LS(LA(C)))", "&kp LC(LS(LA(V)))", "&kp LC(LS(LA(B)))",           "&kp LC(LS(LA(Q)))", "&kp LC(LS(LA(Q)))",  "&kp LC(LS(LA(Q)))",  "&kp LC(LS(LA(Q)))",     "&kp LC(LS(LA(Q)))",    "&kp LC(LS(LA(Q)))",    "&kp LC(LS(LA(Q)))",         "&kp LC(LS(LA(Q)))",     "&kp LC(LS(LA(N)))", "&kp LC(LS(LA(M)))", "&kp LC(LS(LA(COMMA)))", "&kp LC(LS(LA(PERIOD)))",     "&kp LC(LS(LA(SLASH)))",        "&kp LC(LS(LA(ENTER)))",
                        "&none",             "&none",             "&none",             "&none",             "&none", "&kp LC(LS(LA(Q)))",           "&kp LC(LS(LA(Q)))", "&kp LC(LS(LA(Q)))",  "&kp LC(LS(LA(Q)))",  "&kp LC(LS(LA(Q)))", "&kp LC(LS(LA(SPACE)))", "&kp LC(LS(LA(LEFT)))", "&kp LC(LS(LA(DOWN)))",        "&kp LC(LS(LA(UP)))", "&kp LC(LS(LA(RIGHT)))",             "&none"
     ], [
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans"
+       "&none", "&none", "&none", "&none", "&none", "&none",           "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none",
+       "&none", "&none", "&none", "&none", "&none", "&none",           "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none",
+       "&none", "&none", "&none", "&none", "&none", "&none",           "&none", "&none", "&none",                     "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none",
+       "&none", "&none", "&none", "&none", "&none", "&none",           "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none",
+       "&none", "&none", "&none", "&none", "&none", "&none",           "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none"
     ]
   ]
 }
